@@ -253,4 +253,40 @@ a {
     text-decoration: underline;
   }
 
+  /* Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px. */
+
+
+  /* These rules take effect when the browser's width is <= 980px */
+
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: lightgreen;
+        padding: 30 px;
+        font-size-adjust: 90%;
+    }
+}
+
+  /* These rules take effect when the browser's width is <= 768px */
+
+
+  @media screen and (max-width: 768px) {
+    body {
+        background-color: lightcoral;
+        padding: 20 px;
+        font-size-adjust: 80%;
+    }
+}
+  
+  /* These rules take effect when the browser's width is <= 640px */
+
+
+  @media screen and (max-width: 640px) {
+    body {
+        background-color: red;
+        padding: 10 px;
+        font-size-adjust: 70%;
+    }
+}
+  
  
