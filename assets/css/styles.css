@@ -21,7 +21,7 @@ body {
 	align-items: stretch;
     align-content: space-around;
     color: lightgrey;
-    background-color: #ffffff;
+    background-color: #666666;
     height: 210px;
     padding: 10px;
     border-color: cccccc;
@@ -110,7 +110,7 @@ body {
 	align-items: stretch;
 	align-content: space-around;
     color: lightgrey;
-    background-color: #ffffff;
+    background-color: #666666;
     height: auto;
     padding: 10px;
     border-radius: 42px;
@@ -248,7 +248,7 @@ textarea {
 	align-content: space-around;
     color: lightgrey;
     background-color: #666666;
-    height: aut;
+    height: auto;
     padding: 10px;
     border-radius: 42px;
     border-style: solid;
