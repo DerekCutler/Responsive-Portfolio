@@ -97,6 +97,8 @@ body {
 	justify-content: space-around;
 	align-items: center;
     align-items: flex-end;
+    font-size: 1.5em;
+    margin: 7px;
     /* border: 1px; 
     border-style: solid;
     border-color: lightgrey; */
